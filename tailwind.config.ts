@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         inter: "var(--font-inter)",
-        roboto: "var(--font-roboto)",
+        serif4: "var(--font-source-serif4)",
       },
     },
   },
