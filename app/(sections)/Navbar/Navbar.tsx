@@ -3,46 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-
-
-// Navbar.tsx (data section)
-interface LinkItem {
-  label: string;
-  href: string;
-  src?: string;
-}
-
-interface CTAButton {
-  text: string;
-  href?: string;
-  onClick?: () => void;
-}
-
-interface NavbarData {
-  logo: {
-    src: string;
-    alt: string;
-  };
-  links: LinkItem[];
-  cta: CTAButton;
-}
-
-const navbarData: NavbarData = {
-  logo: {
-    src: "/images/logo.svg",
-    alt: "Stract Mixland Logo",
-  },
-  links: [
-    { label: "Pricing", href: "#pricing" },
-    { label: "Platform", href: "#platform" },
-    { label: "Solutions", href: "#solutions" },
-    { label: "Resources", href: "#resources" },
-  ],
-  cta: {
-    text: "Get Started",
-    href: "#cta",
-  },
-};
+import { navbarData } from "../Navbar/Navbar"
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
