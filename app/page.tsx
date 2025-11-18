@@ -15,8 +15,12 @@ export default function Home() {
       </header>
 
       <main>
-        <Hero />
-        <Companies />
+        <div className="bg-[#FFF2E9]">
+          <Hero />
+          <Companies />
+        </div>
+        
+        
         <Features />
         <InfoSection />
         <Testimonial />
