@@ -1,4 +1,4 @@
-import { NavbarData } from "../Navbar/types";
+import { NavbarData } from "./types";
 
 export const navbarData: NavbarData = {
   logo: {
