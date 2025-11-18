@@ -7,13 +7,16 @@ export default function InfoSection() {
     <section className="w-full max-w-[1440px] mx-auto px-6 py-20 md:px-12">
       {/* Heading */}
       <div className="text-center max-w-2xl mx-auto mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold leading-tight mb-4">
-          Smarter payroll for modern teams
+        <h2
+          className="text-3xl md:text-4xl font-regular leading-tight mb-4"
+          style={{ fontFamily: "var(--font-source-serif4)" }}
+        >
+          A single efficient platform for managing all your personnel needs.
         </h2>
 
         <p className="text-[17px] md:text-[18px] text-gray-700 leading-relaxed">
-          Everything you need to manage payroll, automate tasks, and keep your
-          team paid on time.
+          Myself and he brought and to and text the thought, of she line such
+          founder, think being my just ducks
         </p>
       </div>
 
